@@ -1,5 +1,18 @@
 [
   {
+    "name": "Handshake",
+    "payload": {
+      "action": "handshake",
+      "clientId": "tkinter-client",
+      "timestamp": "2026-05-29T14:51:02Z",
+      "capabilities": [
+        "websocket",
+        "http",
+        "tkinter-ui"
+      ]
+    }
+  },
+  {
     "name": "Ping",
     "payload": {
       "action": "ping",
